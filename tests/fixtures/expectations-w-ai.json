@@ -1,0 +1,422 @@
+[
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "behavior where, during high-level cycle k, the L-module repeatedly updates until its state z L con- verges to a local ﬁ",
+    "shouldFind": true
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "ypass BPTT, as detailed next. Consider an idealized HRM behavior where, during high-level cycle k, the L-module repeatedly updates until its state z L con- verges to a local ﬁxed point z ω L . This ﬁxed point, given the current high",
+    "shouldFind": true
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "ﬁxed point z ω L . This ﬁxed point, given the current high-level state z k→1 H , can be expressed as z ω L = f L (z ω L , z k→1 H , ˜",
+    "shouldFind": true
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "of F, and assume",
+    "shouldFind": true
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "↑ H εω H ↑",
+    "shouldFind": true
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "state can be written in a m",
+    "shouldFind": true
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "ble. The Implic",
+    "shouldFind": true
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "we propose a one-step approximation of the HRM gradient–using the gradient of the last state of each module and treating other states as constant",
+    "shouldFind": true,
+    "prompt": "findings",
+    "runId": "2026-04-03T09-48-10-592Z-claude-opus"
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "The above method needs O(1) memory, does not require unrolling through time, and can be easily implemented with an autograd framework such as PyTorch",
+    "shouldFind": true,
+    "prompt": "findings",
+    "runId": "2026-04-03T09-48-10-592Z-claude-opus"
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "each module only needs to back-propagate errors through its most recent local synaptic activity, this approach aligns well with the perspective that cortical credit assignment relies on short-range, temporally local mechanisms rather than on a global replay of activity patterns",
+    "shouldFind": true,
+    "prompt": "findings",
+    "runId": "2026-04-03T09-48-10-592Z-claude-opus"
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "The one-step gradient approximation is theoretically grounded in the mathematics of Deep Equilibrium Models (DEQ) which employs the Implicit Function Theorem (IFT) to bypass BPTT",
+    "shouldFind": false,
+    "prompt": "findings",
+    "runId": "2026-04-03T09-48-10-592Z-claude-opus"
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "the so-called 1-step gradient approximates the series by considering only its first term",
+    "shouldFind": false,
+    "prompt": "findings",
+    "runId": "2026-04-03T09-48-10-592Z-claude-opus"
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "The gradient path is, therefore, Output head → final state of the H-module → final state of the L-module → input embedding",
+    "shouldFind": true,
+    "prompt": "findings",
+    "runId": "2026-04-03T09-48-10-592Z-claude-opus"
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "Calculating the above gradient requires evaluating and inverting matrix (I − JF) that can be computationally expensive",
+    "shouldFind": false,
+    "prompt": "findings",
+    "runId": "2026-04-03T09-48-10-592Z-claude-opus"
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "one-step gradient approximation is theoretically grounded in the mathematics of Deep Equilibrium Models (DEQ)",
+    "shouldFind": false,
+    "prompt": "findings",
+    "runId": "2026-04-03T09-48-10-592Z-claude-opus"
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "1-step gradient approximates the series by considering only its first term",
+    "shouldFind": false,
+    "prompt": "findings",
+    "runId": "2026-04-03T09-48-10-592Z-claude-opus"
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "Calculating the above gradient requires evaluating and inverting matrix",
+    "shouldFind": true,
+    "prompt": "findings",
+    "runId": "2026-04-03T09-48-10-592Z-claude-opus"
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "theoretically grounded in the mathematics of Deep Equilibrium Models",
+    "shouldFind": false,
+    "prompt": "findings",
+    "runId": "2026-04-03T09-48-10-592Z-claude-opus"
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "approximates the series by considering only its first term",
+    "shouldFind": true,
+    "prompt": "findings",
+    "runId": "2026-04-03T09-48-10-592Z-claude-opus"
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "employs the Implicit Function Theorem (IFT) to bypass BPTT",
+    "shouldFind": false,
+    "prompt": "findings",
+    "runId": "2026-04-03T09-48-10-592Z-claude-opus"
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "the L-module repeatedly updates until its state",
+    "shouldFind": true,
+    "prompt": "findings",
+    "runId": "2026-04-03T09-48-10-592Z-claude-opus"
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "Implicit Function Theorem then allows us to calculate the exact gradient of fixed point",
+    "shouldFind": false,
+    "prompt": "findings",
+    "runId": "2026-04-03T09-48-10-592Z-claude-opus"
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "allows us to calculate the exact gradient of fixed point",
+    "shouldFind": false,
+    "prompt": "findings",
+    "runId": "2026-04-03T09-48-10-592Z-claude-opus"
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "allows us to calculate the exact gradient",
+    "shouldFind": false,
+    "prompt": "findings",
+    "runId": "2026-04-03T09-48-10-592Z-claude-opus"
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "without explicit back-propagation",
+    "shouldFind": true,
+    "prompt": "findings",
+    "runId": "2026-04-03T09-48-10-592Z-claude-opus"
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "we propose a one-step approximation of the HRM gradient–using the gradient of the last state of each module and treating other states as constant",
+    "shouldFind": true,
+    "prompt": "methodology",
+    "runId": "2026-04-03T09-48-10-592Z-claude-opus"
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "The above method needs O(1) memory, does not require unrolling through time, and can be easily implemented with an autograd framework such as PyTorch",
+    "shouldFind": true,
+    "prompt": "methodology",
+    "runId": "2026-04-03T09-48-10-592Z-claude-opus"
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "each module only needs to back-propagate errors through its most recent local synaptic activity, this approach aligns well with the perspective that cortical credit assignment relies on short-range, temporally local mechanisms",
+    "shouldFind": true,
+    "prompt": "methodology",
+    "runId": "2026-04-03T09-48-10-592Z-claude-opus"
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "The one-step gradient approximation is theoretically grounded in the mathematics of Deep Equilibrium Models (DEQ) which employs the Implicit Function Theorem (IFT) to bypass BPTT",
+    "shouldFind": false,
+    "prompt": "methodology",
+    "runId": "2026-04-03T09-48-10-592Z-claude-opus"
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "the so-called 1-step gradient approximates the series by considering only its first term",
+    "shouldFind": false,
+    "prompt": "methodology",
+    "runId": "2026-04-03T09-48-10-592Z-claude-opus"
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "the L-module repeatedly updates until its state converges to a local fixed point",
+    "shouldFind": false,
+    "prompt": "methodology",
+    "runId": "2026-04-03T09-48-10-592Z-claude-opus"
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "Output head → final state of the H-module → final state of the L-module → input embedding",
+    "shouldFind": true,
+    "prompt": "methodology",
+    "runId": "2026-04-03T09-48-10-592Z-claude-opus"
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "one-step gradient approximation is theoretically grounded in the mathematics of Deep Equilibrium Models (DEQ)",
+    "shouldFind": false,
+    "prompt": "methodology",
+    "runId": "2026-04-03T09-48-10-592Z-claude-opus"
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "the L-module repeatedly updates until its state",
+    "shouldFind": true,
+    "prompt": "methodology",
+    "runId": "2026-04-03T09-48-10-592Z-claude-opus"
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "1-step gradient approximates the series by considering only its first term",
+    "shouldFind": false,
+    "prompt": "methodology",
+    "runId": "2026-04-03T09-48-10-592Z-claude-opus"
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "theoretically grounded in the mathematics of Deep Equilibrium Models",
+    "shouldFind": false,
+    "prompt": "methodology",
+    "runId": "2026-04-03T09-48-10-592Z-claude-opus"
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "approximates the series by considering only its first term",
+    "shouldFind": true,
+    "prompt": "methodology",
+    "runId": "2026-04-03T09-48-10-592Z-claude-opus"
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "grounded in the mathematics of Deep Equilibrium Models (DEQ)",
+    "shouldFind": false,
+    "prompt": "methodology",
+    "runId": "2026-04-03T09-48-10-592Z-claude-opus"
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "employs the Implicit Function Theorem (IFT) to bypass BPTT",
+    "shouldFind": false,
+    "prompt": "methodology",
+    "runId": "2026-04-03T09-48-10-592Z-claude-opus"
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "Implicit Function Theorem (IFT) to bypass BPTT",
+    "shouldFind": false,
+    "prompt": "methodology",
+    "runId": "2026-04-03T09-48-10-592Z-claude-opus"
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "Implicit Function Theorem then allows us to calculate the exact gradient of fixed point",
+    "shouldFind": false,
+    "prompt": "methodology",
+    "runId": "2026-04-03T09-48-10-592Z-claude-opus"
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "The H-module then performs a single update using this converged L-state",
+    "shouldFind": true,
+    "prompt": "methodology",
+    "runId": "2026-04-03T09-48-10-592Z-claude-opus"
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "Implicit Function Theorem then allows us to calculate the exact gradient",
+    "shouldFind": false,
+    "prompt": "methodology",
+    "runId": "2026-04-03T09-48-10-592Z-claude-opus"
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "without explicit back-propagation",
+    "shouldFind": true,
+    "prompt": "methodology",
+    "runId": "2026-04-03T09-48-10-592Z-claude-opus"
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "we propose a one-step approximation of the HRM gradient–using the gradient of the last state of each module and treating other states as constant",
+    "shouldFind": true,
+    "prompt": "summarize",
+    "runId": "2026-04-03T09-48-10-592Z-claude-opus"
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "The above method needs O(1) memory, does not require unrolling through time, and can be easily implemented with an autograd framework such as PyTorch",
+    "shouldFind": true,
+    "prompt": "summarize",
+    "runId": "2026-04-03T09-48-10-592Z-claude-opus"
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "each module only needs to back-propagate errors through its most recent local synaptic activity, this approach aligns well with the perspective that cortical credit assignment relies on short-range, temporally local mechanisms",
+    "shouldFind": true,
+    "prompt": "summarize",
+    "runId": "2026-04-03T09-48-10-592Z-claude-opus"
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "The one-step gradient approximation is theoretically grounded in the mathematics of Deep Equilibrium Models (DEQ)",
+    "shouldFind": false,
+    "prompt": "summarize",
+    "runId": "2026-04-03T09-48-10-592Z-claude-opus"
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "the Implicit Function Theorem then allows us to calculate the exact gradient of fixed point",
+    "shouldFind": false,
+    "prompt": "summarize",
+    "runId": "2026-04-03T09-48-10-592Z-claude-opus"
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "the so-called 1-step gradient approximates the series by considering only its first term",
+    "shouldFind": false,
+    "prompt": "summarize",
+    "runId": "2026-04-03T09-48-10-592Z-claude-opus"
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "Output head → final state of the H-module → final state of the L-module → input embedding",
+    "shouldFind": true,
+    "prompt": "summarize",
+    "runId": "2026-04-03T09-48-10-592Z-claude-opus"
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "theoretically grounded in the mathematics of Deep Equilibrium Models (DEQ)",
+    "shouldFind": false,
+    "prompt": "summarize",
+    "runId": "2026-04-03T09-48-10-592Z-claude-opus"
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "The Implicit Function Theorem then allows us to calculate the exact gradient of fixed point",
+    "shouldFind": false,
+    "prompt": "summarize",
+    "runId": "2026-04-03T09-48-10-592Z-claude-opus"
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "1-step gradient approximates the series by considering only its first term",
+    "shouldFind": false,
+    "prompt": "summarize",
+    "runId": "2026-04-03T09-48-10-592Z-claude-opus"
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "grounded in the mathematics of Deep Equilibrium Models",
+    "shouldFind": false,
+    "prompt": "summarize",
+    "runId": "2026-04-03T09-48-10-592Z-claude-opus"
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "Implicit Function Theorem then allows us to calculate the exact gradient",
+    "shouldFind": false,
+    "prompt": "summarize",
+    "runId": "2026-04-03T09-48-10-592Z-claude-opus"
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "1-step gradient",
+    "shouldFind": true,
+    "prompt": "summarize",
+    "runId": "2026-04-03T09-48-10-592Z-claude-opus"
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "employs the Implicit Function Theorem (IFT) to bypass BPTT",
+    "shouldFind": false,
+    "prompt": "summarize",
+    "runId": "2026-04-03T09-48-10-592Z-claude-opus"
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "Deep Equilibrium Models (DEQ)",
+    "shouldFind": false,
+    "prompt": "summarize",
+    "runId": "2026-04-03T09-48-10-592Z-claude-opus"
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "the L-module repeatedly updates until its state",
+    "shouldFind": true,
+    "prompt": "summarize",
+    "runId": "2026-04-03T09-48-10-592Z-claude-opus"
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "Implicit Function Theorem",
+    "shouldFind": true,
+    "prompt": "summarize",
+    "runId": "2026-04-03T09-48-10-592Z-claude-opus"
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "Calculating the above gradient requires evaluating and inverting matrix",
+    "shouldFind": true,
+    "prompt": "summarize",
+    "runId": "2026-04-03T09-48-10-592Z-claude-opus"
+  }
+]

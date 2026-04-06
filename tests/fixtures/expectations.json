@@ -1,0 +1,37 @@
+[
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "behavior where, during high-level cycle k, the L-module repeatedly updates until its state z L con- verges to a local ﬁ",
+    "shouldFind": true
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "ypass BPTT, as detailed next. Consider an idealized HRM behavior where, during high-level cycle k, the L-module repeatedly updates until its state z L con- verges to a local ﬁxed point z ω L . This ﬁxed point, given the current high",
+    "shouldFind": true
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "ﬁxed point z ω L . This ﬁxed point, given the current high-level state z k→1 H , can be expressed as z ω L = f L (z ω L , z k→1 H , ˜",
+    "shouldFind": true
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "of F, and assume",
+    "shouldFind": true
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "↑ H εω H ↑",
+    "shouldFind": true
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "state can be written in a m",
+    "shouldFind": true
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "ble. The Implic",
+    "shouldFind": true
+  }
+]

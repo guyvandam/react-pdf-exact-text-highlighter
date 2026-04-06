@@ -1,0 +1,27 @@
+{
+  "provider": "claude",
+  "model": "opus",
+  "args": [
+    "claude",
+    "-p",
+    "--verbose",
+    "--output-format",
+    "stream-json",
+    "--model",
+    "opus",
+    "--mcp-config",
+    "<PROJECT_ROOT>/.mcp.json",
+    "--strict-mcp-config",
+    "--system-prompt",
+    "You are answering questions about a PDF document.\nBefore answering, use the Read tool to read the PDF file at: <PROJECT_ROOT>/tests/fixtures/pdfs/heirachical-reasoning-model-p6.pdf\nThe Read tool natively supports PDFs and will show you the document contents.\nYou MUST call the cite tool for EVERY factual claim. Do NOT construct highlight links yourself.\nThe cite tool will verify the text exists in the PDF and return a highlightLink.\nAfter each cite call, include the returned highlightLink in your response as a markdown link: [short description](highlightLink)\nIf a cite call returns found: false, try a shorter or slightly different snippet and call cite again.\nDo NOT skip the cite tool.\nDo NOT use web search.\nThe PDF path is: <PROJECT_ROOT>/tests/fixtures/pdfs/heirachical-reasoning-model-p6.pdf",
+    "--allowed-tools",
+    "Read,mcp__pdf-cite__cite",
+    "--permission-mode",
+    "bypassPermissions",
+    "--no-session-persistence",
+    "What are the main arguments or findings in this PDF? Cite each one precisely using the cite tool. Be thorough — cite at least 5 distinct passages."
+  ],
+  "pdf": "heirachical-reasoning-model-p6.pdf",
+  "prompt": "findings",
+  "createdAt": "2026-04-04T12:44:14.435Z"
+}

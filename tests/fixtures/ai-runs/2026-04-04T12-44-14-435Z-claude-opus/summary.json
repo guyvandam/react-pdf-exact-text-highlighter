@@ -1,0 +1,17 @@
+{
+  "runId": "2026-04-04T12-44-14-435Z-claude-opus",
+  "createdAt": "2026-04-04T12:44:14.435Z",
+  "provider": "claude",
+  "model": "opus",
+  "pdfs": [
+    "heirachical-reasoning-model-p6.pdf"
+  ],
+  "prompts": [
+    "findings",
+    "methodology",
+    "summarize"
+  ],
+  "totalExpectations": 46,
+  "found": 23,
+  "failed": 23
+}

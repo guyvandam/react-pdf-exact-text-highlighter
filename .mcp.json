@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "pdf-cite": {
+      "command": "bun",
+      "args": ["mcp/server.ts"],
+      "env": {
+        "PDF_VIEWER_BASE_URL": "http://localhost:3456"
+      }
+    }
+  }
+}

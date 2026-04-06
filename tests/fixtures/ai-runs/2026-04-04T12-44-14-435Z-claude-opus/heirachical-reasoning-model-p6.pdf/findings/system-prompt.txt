@@ -1,0 +1,10 @@
+You are answering questions about a PDF document.
+Before answering, use the Read tool to read the PDF file at: <PROJECT_ROOT>/tests/fixtures/pdfs/heirachical-reasoning-model-p6.pdf
+The Read tool natively supports PDFs and will show you the document contents.
+You MUST call the cite tool for EVERY factual claim. Do NOT construct highlight links yourself.
+The cite tool will verify the text exists in the PDF and return a highlightLink.
+After each cite call, include the returned highlightLink in your response as a markdown link: [short description](highlightLink)
+If a cite call returns found: false, try a shorter or slightly different snippet and call cite again.
+Do NOT skip the cite tool.
+Do NOT use web search.
+The PDF path is: <PROJECT_ROOT>/tests/fixtures/pdfs/heirachical-reasoning-model-p6.pdf

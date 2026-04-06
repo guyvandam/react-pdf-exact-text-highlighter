@@ -1,0 +1,97 @@
+[
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "we propose a one-step approximation of the HRM gradient–using the gradient of the last state of each module and treating other states as constant",
+    "shouldFind": true
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "The above method needs O(1) memory, does not require unrolling through time, and can be easily implemented with an autograd framework such as PyTorch",
+    "shouldFind": true
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "each module only needs to back-propagate errors through its most recent local synaptic activity, this approach aligns well with the perspective that cortical credit assignment relies on short-range, temporally local mechanisms rather than on a global replay of activity patterns",
+    "shouldFind": true
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "The one-step gradient approximation is theoretically grounded in the mathematics of Deep Equilibrium Models (DEQ) which employs the Implicit Function Theorem (IFT) to bypass BPTT",
+    "shouldFind": false
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "the L-module repeatedly updates until its state zL converges to a local fixed point",
+    "shouldFind": false
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "The Implicit Function Theorem then allows us to calculate the exact gradient of fixed point",
+    "shouldFind": false
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "Calculating the above gradient requires evaluating and inverting matrix (I − JF) that can be computationally expensive",
+    "shouldFind": false
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "the so-called 1-step gradient approximates the series by considering only its first term",
+    "shouldFind": false
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "theoretically grounded in the mathematics of Deep Equilibrium Models",
+    "shouldFind": false
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "the L-module repeatedly updates until its state",
+    "shouldFind": true
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "The Implicit Function Theorem then allows us to calculate the exact gradient",
+    "shouldFind": false
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "Calculating the above gradient requires evaluating and inverting matrix",
+    "shouldFind": true
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "the so-called 1-step gradient",
+    "shouldFind": true
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "grounded in the mathematics of Deep Equilibrium Models",
+    "shouldFind": false
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "Implicit Function Theorem then allows us to calculate",
+    "shouldFind": false
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "Deep Equilibrium Models",
+    "shouldFind": false
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "Implicit Function Theorem",
+    "shouldFind": true
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "approximates the series by considering only its first term",
+    "shouldFind": true
+  },
+  {
+    "pdf": "heirachical-reasoning-model-p6.pdf",
+    "query": "Output head → final state of the H-module → final state of the L-module → input embedding",
+    "shouldFind": true
+  }
+]

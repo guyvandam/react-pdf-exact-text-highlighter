@@ -1,0 +1,46 @@
+{
+  "name": "react-pdf-exact-text-highlighter",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./mcp/server": "./mcp/server.ts",
+    "./package.json": "./package.json"
+  },
+  "bin": {
+    "react-pdf-exact-text-highlighter-mcp": "./mcp/server.ts"
+  },
+  "files": [
+    "src",
+    "mcp",
+    "README.md"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "bun test",
+    "harness": "bun --hot app/index.ts",
+    "mcp": "bun mcp/server.ts",
+    "generate-ai-tests": "bun tests/generate-ai-citation-tests.ts",
+    "prepublishOnly": "bun test"
+  },
+  "peerDependencies": {
+    "pdfjs-dist": ">=3.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "react": "^19",
+    "react-dom": "^19",
+    "react-pdf-highlighter-extended": "^8.1.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "pdfjs-dist": "^4.10.38"
+  }
+}

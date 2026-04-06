@@ -1,0 +1,68 @@
+[
+  {
+    "text": "we propose a one-step approximation of the HRM gradient–using the gradient of the last state of each module and treating other states as constant",
+    "found": true,
+    "highlightLink": "http://localhost:3456?pdf=heirachical-reasoning-model-p6.pdf#highlight=we%20propose%20a%20one-step%20approximation%20of%20the%20HRM%20gradient%E2%80%93using%20the%20gradient%20of%20the%20last%20state%20of%20each%20module%20and%20treating%20other%20states%20as%20constant",
+    "pageNumber": 1
+  },
+  {
+    "text": "The above method needs O(1) memory, does not require unrolling through time, and can be easily implemented with an autograd framework such as PyTorch",
+    "found": true,
+    "highlightLink": "http://localhost:3456?pdf=heirachical-reasoning-model-p6.pdf#highlight=The%20above%20method%20needs%20O(1)%20memory%2C%20does%20not%20require%20unrolling%20through%20time%2C%20and%20can%20be%20easily%20implemented%20with%20an%20autograd%20framework%20such%20as%20PyTorch",
+    "pageNumber": 1
+  },
+  {
+    "text": "cortical credit assignment relies on short-range, temporally local mechanisms rather than on a global replay of activity patterns",
+    "found": true,
+    "highlightLink": "http://localhost:3456?pdf=heirachical-reasoning-model-p6.pdf#highlight=cortical%20credit%20assignment%20relies%20on%20short-range%2C%20temporally%20local%20mechanisms%20rather%20than%20on%20a%20global%20replay%20of%20activity%20patterns",
+    "pageNumber": 1
+  },
+  {
+    "text": "The one-step gradient approximation is theoretically grounded in the mathematics of Deep Equilibrium Models (DEQ) which employs the Implicit Function Theorem (IFT) to bypass BPTT",
+    "found": false
+  },
+  {
+    "text": "the L-module repeatedly updates until its state zL converges to a local fixed point",
+    "found": false
+  },
+  {
+    "text": "Calculating the above gradient requires evaluating and inverting matrix (I − JF) that can be computationally expensive",
+    "found": false
+  },
+  {
+    "text": "the so-called 1-step gradient approximates the series by considering only its first term",
+    "found": false
+  },
+  {
+    "text": "theoretically grounded in the mathematics of Deep Equilibrium Models",
+    "found": false
+  },
+  {
+    "text": "the L-module repeatedly updates until its state",
+    "found": true,
+    "highlightLink": "http://localhost:3456?pdf=heirachical-reasoning-model-p6.pdf#highlight=the%20L-module%20repeatedly%20updates%20until%20its%20state",
+    "pageNumber": 1
+  },
+  {
+    "text": "Calculating the above gradient requires evaluating and inverting matrix",
+    "found": true,
+    "highlightLink": "http://localhost:3456?pdf=heirachical-reasoning-model-p6.pdf#highlight=Calculating%20the%20above%20gradient%20requires%20evaluating%20and%20inverting%20matrix",
+    "pageNumber": 1
+  },
+  {
+    "text": "the so-called 1-step gradient",
+    "found": true,
+    "highlightLink": "http://localhost:3456?pdf=heirachical-reasoning-model-p6.pdf#highlight=the%20so-called%201-step%20gradient",
+    "pageNumber": 1
+  },
+  {
+    "text": "grounded in the mathematics of Deep Equilibrium Models",
+    "found": false
+  },
+  {
+    "text": "grounded in the mathematics of Deep Equilibrium Mod",
+    "found": true,
+    "highlightLink": "http://localhost:3456?pdf=heirachical-reasoning-model-p6.pdf#highlight=grounded%20in%20the%20mathematics%20of%20Deep%20Equilibrium%20Mod",
+    "pageNumber": 1
+  }
+]

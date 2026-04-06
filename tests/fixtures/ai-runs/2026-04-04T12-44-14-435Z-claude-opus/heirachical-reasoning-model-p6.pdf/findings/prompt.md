@@ -1,0 +1,1 @@
+What are the main arguments or findings in this PDF? Cite each one precisely using the cite tool. Be thorough — cite at least 5 distinct passages.
