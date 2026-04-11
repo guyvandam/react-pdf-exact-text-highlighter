@@ -28,7 +28,11 @@ Run the MCP server directly with Bun:
 bun x react-pdf-exact-text-highlighter-mcp
 ```
 
-Or invoke the installed server file from your own app if you need an absolute path.
+Run it as a manual shared HTTP server:
+
+```bash
+bun x react-pdf-exact-text-highlighter-mcp --transport http --port 3101
+```
 
 ## Publish
 
