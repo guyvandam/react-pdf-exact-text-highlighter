@@ -55,7 +55,7 @@ async function extractPdfText(doc: any, pageNumber?: number) {
 
 function createServer() {
   const server = new Server(
-    { name: "pdf-select", version: "0.1.0" },
+    { name: "pdf-select", version: "0.1.1" },
     { capabilities: { tools: {} } },
   );
 
